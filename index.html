@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fdac8d12d5.js" crossorigin="anonymous"></script>
         <style>
                 .sora {
                 font-family: "Sora", serif;
@@ -16,10 +17,82 @@
         </style>
 </head>
 <body class="sora">
-        <header>
-
+        <header class="bg-gradient-to-t from-[#EFEBE3] mb-32">
+                <div class="navbar bg-base-100 flex lg:justify-between container mx-auto mt-3 mb-24">
+                        <div class="w-screen lg:w-auto">
+                                <div class="dropdown flex justify-between w-full">
+                                        <div><img src="./c2-assets/logo-header.png" alt=""></div>
+                                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                                                        stroke="currentColor">
+                                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                                d="M4 6h16M4 12h8m-8 6h16" />
+                                                </svg>
+                                        </div>
+                                        <ul tabindex="0"
+                                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                                <li><a>Contact us</a></li>
+                                                <li><a>Services</a></li>
+                                                <li><a>Product</a></li>
+                                        </ul>
+                                </div>
+                                
+                        </div>
+                        <div class="navbar-center hidden lg:flex">
+                                <ul class="menu menu-horizontal px-1 text-[#111111] text-xl font-normal">
+                                        <li><a>Contact us</a></li>
+                                        <li><a>Services</a></li>
+                                        <li><a>Product</a></li>
+                                </ul>
+                        </div>
+                        <div class="hidden lg:block text-[#111111] font-normal text-xl ">
+                                
+                                <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                                <i class="fa-solid fa-cart-shopping text-2xl ml-3"></i>
+                                <a class="btn ml-6 bg-white px-7 border border-[#179800] ">Login</a>
+                                <a class="btn ml-3 bg-[#179800] text-white px-7 py-3">Register</a>
+                        </div>
+                </div>
+                <div class=" text-center mb-8">
+                        <h1 class="text-[#111111] text-3xl lg:text-5xl font-semibold mb-8">Freshness <span class="text-[#179800]">You Can <br>
+                        Count  </span >On, Prices You’ll Love!</h1>
+                        <p class="text-[#111111] font-light lg:font-normal text-base lg:text-xl">Shop your daily essentials at unbeatable <br class="lg:hidden"> prices. From fresh produce to pantry <br>  staples, we’ve got you covered every day!</p>
+                       
+                </div>
+                <div class="flex justify-center "><img src="./c2-assets/hero-vegetables.png " alt=""></div>
         </header>
         <main>
+                <section>
+                        <div class=" container mx-auto ">
+                                <h1 class="text-[#179800] font-semibold text-4xl mb-12 ml-10 lg:ml-24">Services</h1>
+                        </div>
+                        <div class=" flex justify-center gap-6 flex-wrap mb-32">
+                                <div class=" w-[350px] lg:w-[430px] h-96 shadow-xl bg-[#EFEBE3] flex items-center rounded-xl">
+                                        
+                                        <div class="card-body items-center text-center  ">
+                                                <img src="./c2-assets/service.png" alt="">
+                                                <h2 class="font-semibold text-[#111111] text-xl lg:text-2xl">24/7 Services</h2>
+                                                <p class=" font-light text-[#11111] text-base lg:text-lg">Providing round-the-clock support  to  ensure your needs are met anytime, day or night.</p>
+                                        </div>
+                                </div>
+                                <div class=" w-[350px] lg:w-[430px] h-96 shadow-xl bg-[#EFEBE3] flex items-center rounded-xl">
+                                        
+                                        <div class="card-body items-center text-center  ">
+                                                <img src="./c2-assets/service.png" alt="">
+                                                <h2 class="font-semibold text-[#111111] text-xl lg:text-2xl">Fast Delivery</h2>
+                                                <p class=" font-light text-[#11111] text-base lg:text-lg">Get your orders delivered swiftly with our efficient and reliable shipping services.</p>
+                                        </div>
+                                </div>
+                                <div class=" w-[350px] lg:w-[430px] h-96 shadow-xl bg-[#EFEBE3] flex items-center rounded-xl">
+                                        
+                                        <div class="card-body items-center text-center  ">
+                                                <img src="./c2-assets/service.png" alt="">
+                                                <h2 class="font-semibold text-[#111111] text-xl lg:text-2xl">Healthy Products</h2>
+                                                <p class=" font-light text-[#11111] text-base lg:text-lg">Offering carefully selected, high-quality, and organic products for a healthier lifestyle.</p>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
 
         </main>
         <footer>
